@@ -1,0 +1,73 @@
+body{
+	background-color: #cc00cc;
+}
+.logoResim{
+	width: 90px;
+	height: 90px;
+	margin: 2px 0;
+}
+#header{
+	background: #ff99ff;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: ghostwhite;
+	display: none;
+}
+#footer{
+	background: #ff99ff;	
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: ghostwhite;
+	display: none;
+}
+#logo{
+	background: #4d004d;
+	display: none;
+}
+a:hover{
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
+}
+/*img:hover{
+	background: #ffb3ff;
+}*/
+.kanalYazi{
+	width: 250px;
+	height: 150px;
+	/*border: 3px solid #ffb3ff;*/
+	float: left;
+	margin: 3px 2px;
+	color: ghostwhite;
+	font-size: 25px;
+	text-align: center;
+	padding: 55px 0;
+}
+.btn{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 80px;
+	color: white;
+}
+#btnRefresh{
+	display: none;
+}
+.frame{
+	width: 100%;
+	height: 564px;
+}
+#frame{
+	display: none;
+}
+@media (max-width: 568px){
+	.kanalYazi{
+		width: 150px;
+		font-size: 18px;
+	}
+}
+#panel{
+	display: none;
+}
